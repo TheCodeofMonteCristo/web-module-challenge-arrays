@@ -150,15 +150,15 @@ Use the removeFlavorByName function below to do the following:
   HINT: You can use .splice() for this
 */
 
+
 function removeFlavorByName(array, flavor){
-  for(let i = 0, i < array.length; i++){
+  for(let i = 0; i < array.length; i++){
     if(array[i] === flavor){
       array.splice(i, 1);
     }
   }
 }
 console.log ('task 6:', removeFlavorByName(originalFlavors, 'Rocky Road'));
-
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -181,7 +181,7 @@ Use the filterByWord function below to do the following:
 
 
 function filterByWord(array, flavor){
-  /let filteredArray = [];
+  let filteredArray = [];
   for(let i = 0; i < array.length; i++){
     if(array[i].includes(flavor)){
       filteredArray.push(array[i]);
