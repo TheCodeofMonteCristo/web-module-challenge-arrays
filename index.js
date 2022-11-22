@@ -157,6 +157,7 @@ function removeFlavorByName(array, flavor){
       array.splice(i, 1);
     }
   }
+  return array; 
 }
 console.log ('task 6:', removeFlavorByName(originalFlavors, 'Rocky Road'));
 
